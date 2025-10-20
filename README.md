@@ -1,13 +1,5 @@
-# wechat-dragon-lookup-tool
-这是一个基于vue3+vite的微信接龙名单查询对比工具，打包后的html文件已放在文件根目录，有需求可自取
+# Vue 3 + TypeScript + Vite
 
-# 使用方法
-只需要在完整名单输入栏拉入完整名单,接龙输入栏拉入原始的接龙内容，就能自动去除无关信息，查询未接龙名单
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-
-项目目前加入了保存在浏览器的本地存储功能，避免重复输入完整名单的困扰；
-
-项目目前加入了相似度系统，通过计算编辑距离相似度判断是否为错字；
-对于相似度50%以上的不完全符合的名字，项目会列出名单，以便于人工核验（如ABC与ABD,ABC与AB）
-
-注:目前完整名单输入不可带序号，接龙名单则无要求；
+Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
